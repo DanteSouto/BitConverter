@@ -4,12 +4,12 @@ Inspired in .NET BitConverter function.
 
 ## Current supported data types:
 
--bool;
--int;
--long;
--double;
--std::string;
--std::time_t.
+* bool;
+* int;
+* long;
+* double;
+* std::string;
+* std::time_t.
 
 ## Usage
 
