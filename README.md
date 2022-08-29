@@ -15,6 +15,7 @@ Inspired in .NET BitConverter function.
 
 Use **BitConverter::GetBytes([variable])** to convert any supported data type into byte array. 
 The byte array is encapsulated by de “data” structure defined in data.h. The data structure (data.buffer) is an array of unsigned char.
+
 To convert byte array back to one off the supported types, use the respective function:
 
 > unsigned char[] BitConverter::GetBytes([variable])
