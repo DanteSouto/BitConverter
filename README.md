@@ -34,7 +34,7 @@ To convert byte array back to one off the supported types, use the respective fu
 
 ## Meta
 
-Dante Souto – [@dantesouto](https://twitter.com/dantesouto) – dantesouto@gmail.com
+Dante Souto – [@dantesouto](https://twitter.com/dantesouto)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
