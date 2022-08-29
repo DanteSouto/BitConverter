@@ -1,7 +1,9 @@
-#BitConverter Clone in C++
+# BitConverter Clone in C++
+
 Inspired in .NET BitConverter function.
 
-##Current supported data types:
+## Current supported data types:
+
 -bool;
 -int;
 -long;
@@ -9,10 +11,12 @@ Inspired in .NET BitConverter function.
 -std::string;
 -std::time_t.
 
-##Usage
-Use “BitConverter::GetBytes([variable])” to convert any supported data type into byte array. 
-The byte array is encapsulated by de “data” structure defined in data.h. The data structure (data.buffer) is an array of unsigned char.
+## Usage
+
+Use **BitConverter::GetBytes([variable])** to convert any supported data type into byte array. 
+The byte array is encapsulated by de â€œdataâ€ structure defined in data.h. The data structure (data.buffer) is an array of unsigned char.
 To convert byte array back to one off the supported types, use the respective function:
+
 ...
 unsigned char[] BitConverter::GetBytes([variable])
 bool BitConverter::ToBool([byte array])
@@ -25,7 +29,7 @@ string BitConverter::ToString([byte array])
 
 ## Meta
 
-Dante Souto – [@dantesouto](https://twitter.com/dantesouto) – dantesouto@gmail.com
+Dante Souto â€“ [@dantesouto](https://twitter.com/dantesouto) â€“ dantesouto@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
